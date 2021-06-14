@@ -1,7 +1,7 @@
-name: test github actions 		#Nombre del workflow
+name: test github actions #Nombre del workflow
 
-on: push 				#Evento que dispara las acciones
-name: desplegar 			#Nombre del evento
+on: push #Evento que dispara las acciones
+name: desplegar	#Nombre del evento
 jobs:					#Lista de acciones a realizar
   deploy:				#Nombre de la tarea
    name: desplegar a servidor
@@ -9,7 +9,7 @@ jobs:					#Lista de acciones a realizar
    steps:				#Tareas que construyen y testea codigo
    - uses: actions/checkout@master	#Accion que lleva codigo al workspace
    - name: build and push to docker
-   - uses: docker/build-push-action@v1
+     uses: docker/build-push-action@v1
      with:
       username: ${{secrets.DOCKHUB_UNAME}}
       password: ${{secrets.DOCKHUB_PASS}}
