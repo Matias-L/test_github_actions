@@ -1,6 +1,6 @@
 services:
  nginx:
-  image: matiaslionel/test_github_actions:latest
+  image: matiaslionel/test_github_actions:main
   ports:
    - "80:80"
    - "443:443"
