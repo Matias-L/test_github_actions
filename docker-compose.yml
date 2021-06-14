@@ -1,0 +1,7 @@
+services:
+ nginx:
+  image: matiaslionel/test_github_actions
+  build: .
+  ports:
+   - "80:80"
+   - "443:443"
