@@ -1,5 +1,3 @@
-name: test github actions #Nombre del workflow
-
 on: push #Evento que dispara las acciones
 name: desplegar	#Nombre del evento
 jobs:					#Lista de acciones a realizar
