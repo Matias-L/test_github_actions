@@ -12,5 +12,3 @@ jobs:
       username: ${{secrets.DOCKHUB_UNAME}}
       password: ${{secrets.DOCKHUB_PASS}}
       repository: ${{github.repository}}
-      tag_with_sha: true      
-      tags: ${{github.sha}} 
