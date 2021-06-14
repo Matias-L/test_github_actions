@@ -10,7 +10,7 @@ jobs:
      uses: docker/build-push-action@v1
      with:
       username: ${{secrets.DOCKHUB_UNAME}}
-      password: ${{secrets.DOCKHUB:PASS}}
+      password: ${{secrets.DOCKHUB_PASS}}
       repository: ${{github.repository}}
       tag_with_ref: true
       tag_with_sha: true      

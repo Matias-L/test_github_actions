@@ -1,4 +1,0 @@
-1 Crear repositori
-2 Crear dockerfile y un index.html
-3 Crear directorio .github/workflows
-4 Crear archivo de actions dentro del directorio creado en 3. Debe ser de la extencion YAML
