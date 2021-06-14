@@ -12,6 +12,6 @@ jobs:					#Lista de acciones a realizar
       username: ${{secrets.DOCKHUB_UNAME}}
       password: ${{secrets.DOCKHUB_PASS}}
       repository: matiaslionel/test_github_actions
-      tag_with_sha: true
+#      tag_with_sha: true
       tag_with_ref: true
-      tags: ${{github.sha}}
+#      tags: ${{github.sha}}
